@@ -49,7 +49,10 @@ obj.Login();
        obj.Enterpin(Excel.getTestdata("Sheet1", 2, 1));
    obj.Cont();
 	}
-
+	@Test
+ public void addtest() {
+		System.out.println("hiii");
+	}
 //@Test
 //public void clickforgot() {
 //ZerodhaLogin obj = new ZerodhaLogin(driver);
